@@ -12,10 +12,9 @@
     
 |  function  | Notes | Links |
 | ----------- | ----------- | ----------- |
-| getDirContents(\$dir)       |φορτώνει τα αρχεία στον κεντρικό πίνακα    \$getContents  
-|  ./curl_filelist.php?fun=getDirContents&dir=mv/library 
-     ./curl_filelist.php?fun=getDirContents  |
-| getfilename_in_directory(\$getContents, \$filename, \$directory)  
+| getDirContents(\$dir)       | φορτώνει τα αρχεία στον κεντρικό πίνακα \$getContents | ./curl_filelist.php?fun=getDirContents&dir=mv/library |
+|                             |                                                       | ./curl_filelist.php?fun=getDirContents |
+| getfilename_in_directory(\$getContents, \$filename, \$directory) 
 | Φέρνει μόνο όπου υπάρχει το αρχείο \$filename μέσα στο  \$directory    ΜΟΝΟ |
 | getfilename(\$getContents, \$filename)          |  Φέρνει μόνο όπου υπάρχει το αρχείο \$filename                          |
 | get_all_filelist(\$getContents)                 | Φέρνει τα αρχεία από τον κεντρικό πίνακα    \$getContents               | 
