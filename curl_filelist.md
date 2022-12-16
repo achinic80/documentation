@@ -10,12 +10,12 @@
 
 ΔΕΣ  και το  curl_filelist_dashboard.php      με αυτό συνεργάζεται.
     
-|  function  | Notes | Links |
-| ----------- | ----------- | ----------- |
-| getDirContents(\$dir)       | φορτώνει τα αρχεία στον κεντρικό πίνακα \$getContents | ./curl_filelist.php?fun=getDirContents&dir=mv/library |
-|                             |                                                       | ./curl_filelist.php?fun=getDirContents |
-| getfilename_in_directory(\$getContents, \$filename, \$directory) 
-| Φέρνει μόνο όπου υπάρχει το αρχείο \$filename μέσα στο  \$directory    ΜΟΝΟ |
+| Function                                 | Notes                                                 | Links       |
+| ---------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- |
+| getDirContents(\$dir)                    | φορτώνει τα αρχεία στον κεντρικό πίνακα \$getContents | ./curl_filelist.php?fun=getDirContents&dir=mv/library |
+|                                          |                                                       | ./curl_filelist.php?fun=getDirContents |
+| getfilename_in_directory                 | Φέρνει μόνο όπου υπάρχει το αρχείο \$filename μέσα στο  \$directory    ΜΟΝΟ |
+| (\$getContents, \$filename, \$directory) |                                                                             |
 | getfilename(\$getContents, \$filename)          |  Φέρνει μόνο όπου υπάρχει το αρχείο \$filename                          |
 | get_all_filelist(\$getContents)                 | Φέρνει τα αρχεία από τον κεντρικό πίνακα    \$getContents               | 
 | get_dir_files(\$getContents, \$directory)       |  Φέρνει ότι αρχείο υπάρχει μέσα στο \$directory και απο κάτω του         | 
