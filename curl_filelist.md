@@ -1,15 +1,16 @@
-    <b> HELP - ΟΔΗΓΙΕΣ </b>
+<b> HELP - ΟΔΗΓΙΕΣ </b>
+
+ REQUEST['dir']
+ REQUEST['filename']
+ REQUEST['fun']
+             
+δημιουργησα μια php που ψάχνει όλα τα directories και
+φέρνει όλα τα αρχεία ωστε να βλεπουμε ποτε αλλαξε το καθενα και πόσο μέγεθος έχει
+όπου τρέχει .... ψάχνει απο κάτω.... 
+
+ΔΕΣ  και το  curl_filelist_dashboard.php      με αυτό συνεργάζεται.
     
-     REQUEST['dir']
-     REQUEST['filename']
-     REQUEST['fun']
-                 
-    δημιουργησα μια php που ψάχνει όλα τα directories και
-    φέρνει όλα τα αρχεία ωστε να βλεπουμε ποτε αλλαξε το καθενα και πόσο μέγεθος έχει
-    όπου τρέχει .... ψάχνει απο κάτω.... 
-    
-    ΔΕΣ  και το  curl_filelist_dashboard.php      με αυτό συνεργάζεται.
-    
+|  function  | to | Notes | Links |
 | ----------- | ----------- | ----------- | ----------- |
 | getDirContents(\$dir)       | -> | φορτώνει τα αρχεία στον κεντρικό πίνακα    \$getContents  
   |  ./curl_filelist.php?fun=getDirContents&dir=mv/library 
