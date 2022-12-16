@@ -10,8 +10,8 @@
 
 ΔΕΣ  και το  curl_filelist_dashboard.php      με αυτό συνεργάζεται.
     
-|  function  |Notes | Links |
-| ----------- | ----------- | ----------- | ----------- |
+|  function  | Notes | Links |
+| ----------- | ----------- | ----------- |
 | getDirContents(\$dir)       |φορτώνει τα αρχεία στον κεντρικό πίνακα    \$getContents  
 |  ./curl_filelist.php?fun=getDirContents&dir=mv/library 
      ./curl_filelist.php?fun=getDirContents  |
